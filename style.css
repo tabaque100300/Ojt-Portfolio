@@ -1,0 +1,237 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.qw{
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/onlinePapers.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+    background: black;
+}
+.er{
+    color: white;
+    font-size: 70px;
+    cursor: pointer;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 1rem;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: red;
+    transition: 2s;
+}
+.btn{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-size: 35px;
+    border-radius: 30px;
+    padding: 10px 15px;
+    transition: transform .2s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.zx{
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    transform: translateY(-50%);
+
+
+}
+h1{
+    color: white;
+    margin: 10px 0px 10px;
+    font-size: 35px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+h4{
+    color: #fcfc;
+    font-size: 18px;
+}
+.ty{
+    width: 300px;
+    max-width: 100%;
+    position: relative;
+    display: inline-block;
+}
+.ty form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 5px;
+    border: 2px solid red;
+    outline: none;
+    border-radius: 30px;
+}
+.yu form input{
+    display: inline-block;
+    width: 10%;
+    padding: 14px 75px 14px 20px;
+    outline: none;
+    border-radius: 30px;
+    background: red;
+
+    margin:  10px;
+    
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: gray;
+}
+.about img{
+    height: auto;
+    width: 430px;
+}
+.text{
+    width: 1000px;
+    margin-bottom: 250px;
+    margin-left: 200px;
+    border: 2px solid black;
+    padding: 30px 30px 30px 10px;
+    border-radius: 1rem;
+    padding-bottom: 0px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.text h2{
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.text h5{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-bottom: 22px;
+}
+.class{
+    font-size: 20px;
+    width: 500px;
+}
+.para{
+    color: black;
+    letter-spacing: 2px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+.box{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: gray;
+}
+.card h2{
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.pra{
+    border: 50px;
+    width: 100%;
+    padding: 30px 30px 30px;
+}
+.pra img{
+    height: auto;
+    width: 300px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.prac{
+    text-align: center;margin-top: 300px;
+
+
+
+}
+.ccs{
+    margin-top: -100px;
+    margin-left: 200px;
+    display: inline-block;
+    padding: 0px;
+}
+
+.ops{
+    margin-left: 400px;
+    margin-top: -80px;
+    padding-left: 70px;
+    padding-right: 20px;
+}
+.ccd{
+
+    margin-left: 400px;
+    margin-top: -150px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.ccc{
+    margin-left: 400px;
+    margin-top: -128px;
+    margin-left: 700px;
+}
+.web{
+    background-color: gray;
+    width: 100%;
+    height: auto;
+    padding: 6rem;
+}
+.cont{
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
+.plike{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+.web ul{
+    margin-left: 30rem;
+    text-decoration: none;
+}
